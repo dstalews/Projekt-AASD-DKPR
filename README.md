@@ -1,2 +1,2 @@
-# Projekt-AASD-DKRP
-Projekt z przedmiotu AASD - Zespół DKRP
+# Projekt-AASD-DKPR
+Projekt z przedmiotu AASD - Zespół DKPR
