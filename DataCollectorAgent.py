@@ -15,16 +15,17 @@ class DataCollectorAgent(agent.Agent):
         data: Data
 
         async def run(self):
-            print("Starting Periodic Behaviour")
+            print("Starting collecting data")
             print("Collecting data")
             await asyncio.sleep(5)
             print("Data collected")
 
         async def on_start(self):
-            print("Starting collecting data")
+            print("Starting collecting data Behaviour")
 
         async def on_end(self):
             print("Ended and now sending collected data")
+            await self.agent.stop()
 
     async def collect_data(self):
         pass
