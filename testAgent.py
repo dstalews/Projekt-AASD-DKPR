@@ -5,12 +5,12 @@ from spade import agent
 print('test')
 
 
-class DummyAgent(agent.Agent):
+class DataCollectorAgent(agent.Agent):
     async def setup(self):
         print("Hello World! I'm agent {}".format(str(self.jid)))
 
 
-dummy = DummyAgent("datacollector@localhost", "datacollector1")
-dummy.start()
+data_collector = DataCollectorAgent("datacollector@localhost", "datacollector1")
+data_collector.start()
 time.sleep(1)
-dummy.stop()
+data_collector.stop()
