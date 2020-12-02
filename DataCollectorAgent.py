@@ -1,9 +1,11 @@
 import asyncio
 from datetime import datetime, timedelta
+from json import dumps
 from typing import TypedDict
 
 from spade import agent
 from spade.behaviour import PeriodicBehaviour
+from spade.message import Message
 
 
 class Data(TypedDict):
@@ -19,6 +21,15 @@ class DataCollectorAgent(agent.Agent):
             print("Collecting data")
             await asyncio.sleep(5)
             print("Data collected")
+            print("Preparing data to send")
+            local_data: Data = dict(
+                data_int=10
+            )
+            msg_to_send = Message(to="healthanalyzer@localhost")
+            msg_to_send.body = dumps(local_data)
+            await self.send(msg_to_send)
+            print("Message to Health Analyzer sent!")
+            data = local_data
 
         async def on_start(self):
             print("Starting collecting data Behaviour")
