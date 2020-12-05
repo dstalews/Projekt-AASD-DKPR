@@ -5,9 +5,9 @@ SPADE
 
 
 ## Instalacja
-1. Zainstalować `SPADE`
+1. Zainstalować biblioteki wymagane do tego projektu (z pliku `requirements.txt`)
 ```pip
-pip install spade
+pip install -r requirements.txt
 ```
 
 2. Zainstalować `Prosody`
