@@ -28,7 +28,7 @@ class DecisionMakerAgent(agent.Agent):
             )
 
         async def on_end(self):
-            msg_to_send: Message = Message("actionexecutor@localhost")
+            msg_to_send: Message = Message("actionexecutor@localhost", metadata=dict(performative="submit"))
             msg_to_send.body = dumps(self.agent.decision)
             await self.send(msg_to_send)
 

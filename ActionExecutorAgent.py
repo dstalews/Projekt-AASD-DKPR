@@ -4,6 +4,12 @@ from json import dumps, loads
 from spade import agent
 from spade.behaviour import CyclicBehaviour, OneShotBehaviour
 from spade.message import Message
+from spade.template import Template
+
+DECISION_MAKER_DATA_TEMPLATE: Template = Template(
+    sender="decisionmaker@localhost",
+    metadata=dict(performative="submit")
+)
 
 
 class ActionExecutorAgent(agent.Agent):
@@ -41,4 +47,4 @@ class ActionExecutorAgent(agent.Agent):
         print(
             f"[{self.agent_name}] Hello World! I'm agent {self.jid} I'm executing action made by DecisionMaker!")
         retrieve_data_b = self.RetrieveData()
-        self.add_behaviour(retrieve_data_b)
+        self.add_behaviour(retrieve_data_b, template=DECISION_MAKER_DATA_TEMPLATE)
