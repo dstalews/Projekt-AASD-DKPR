@@ -6,10 +6,17 @@ from typing import TypedDict, List
 from spade import agent
 from spade.behaviour import PeriodicBehaviour, CyclicBehaviour
 from spade.message import Message
+from spade.template import Template
 
 
 class Data(TypedDict):
     data_int: int
+
+
+PERFORMED_ACTION_MESSAGE_TEMPLATE: Template = Template(
+    metadata=dict(performative="inform"),
+    sender="actionexecutor@localhost"
+)
 
 
 class DataCollectorAgent(agent.Agent):
@@ -51,9 +58,6 @@ class DataCollectorAgent(agent.Agent):
             print(f"[{self.agent.agent_name}] Ended and now sending collected data")
             await self.agent.stop()
 
-    async def collect_data(self):
-        pass
-
     async def setup(self):
         self.agent_name = "DataCollector"
         print(f"[{self.agent_name}] Hello World! I'm agent")
@@ -62,4 +66,4 @@ class DataCollectorAgent(agent.Agent):
 
         collect_data_b = self.CollectData(period=20, start_at=start_at)
         self.add_behaviour(collect_data_b)
-        self.add_behaviour(self.ReceivePerformedAction())
+        self.add_behaviour(self.ReceivePerformedAction(), template=PERFORMED_ACTION_MESSAGE_TEMPLATE)

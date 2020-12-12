@@ -17,7 +17,7 @@ class ActionExecutorAgent(agent.Agent):
 
         async def on_end(self):
             print(f"[{self.agent.agent_name}] Sending information to DataCollector")
-            msg_to_send = Message("datacollector@localhost")
+            msg_to_send = Message("datacollector@localhost", metadata=dict(performative="inform"))
             msg_to_send.body = dumps(dict(action=self.agent.decision, status="SUCCESS"))
             await self.send(msg_to_send)
 
