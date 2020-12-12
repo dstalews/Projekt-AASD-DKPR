@@ -4,6 +4,12 @@ from json import dumps
 from spade import agent
 from spade.behaviour import CyclicBehaviour, OneShotBehaviour
 from spade.message import Message
+from spade.template import Template
+
+HEALTH_ANALYZER_DATA_TEMPLATE: Template = Template(
+    sender="healthanalyzer@localhost",
+    metadata=dict(performative="submit")
+)
 
 
 class DecisionMakerAgent(agent.Agent):
@@ -46,4 +52,4 @@ class DecisionMakerAgent(agent.Agent):
         print(
             f"[{self.agent_name}] Hello World! I'm agent {self.jid} I'm deciding what to do based on data received from HealthAnalyzer!")
         retrieve_data_b = self.RetrieveData()
-        self.add_behaviour(retrieve_data_b)
+        self.add_behaviour(retrieve_data_b, template=HEALTH_ANALYZER_DATA_TEMPLATE)

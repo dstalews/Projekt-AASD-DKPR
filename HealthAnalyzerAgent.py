@@ -29,7 +29,7 @@ class HealthAnalyzerAgent(agent.Agent):
 
             if msg:
                 print(f"[{self.agent.agent_name}] Received data from DataCollector: {msg.body}")
-                msg_to_send = Message("decisionmaker@localhost")
+                msg_to_send = Message("decisionmaker@localhost", metadata=dict(performative="submit"))
                 msg_to_send.body = dumps(dict(health_status="poor", blod_pressure="height"))
                 await self.send(msg_to_send)
             else:
