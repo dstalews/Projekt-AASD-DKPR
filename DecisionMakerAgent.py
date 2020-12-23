@@ -8,7 +8,7 @@ from spade.template import Template
 
 HEALTH_ANALYZER_DATA_TEMPLATE: Template = Template(
     sender="healthanalyzer@localhost",
-    metadata=dict(performative="submit")
+    metadata=dict(performative="inform")
 )
 
 
@@ -28,7 +28,7 @@ class DecisionMakerAgent(agent.Agent):
             )
 
         async def on_end(self):
-            msg_to_send: Message = Message("actionexecutor@localhost", metadata=dict(performative="submit"))
+            msg_to_send: Message = Message("actionexecutor@localhost", metadata=dict(performative="inform"))
             msg_to_send.body = dumps(self.agent.decision)
             await self.send(msg_to_send)
 

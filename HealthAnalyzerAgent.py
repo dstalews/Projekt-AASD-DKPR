@@ -6,7 +6,7 @@ from spade.message import Message
 from spade.template import Template
 
 DATA_COLLECTOR_DATA_TEMPLATE: Template = Template(
-    metadata=dict(performative='submit'),
+    metadata=dict(performative='inform'),
     sender='datacollector@localhost'
 )
 
@@ -18,7 +18,7 @@ class HealthAnalyzerAgent(agent.Agent):
         async def run(self):
             msg = Message(
                 "datacollector@localhost",
-                metadata=dict(performative="request_data")
+                metadata=dict(performative="request")
             )
             await self.send(msg)
 
@@ -29,7 +29,7 @@ class HealthAnalyzerAgent(agent.Agent):
 
             if msg:
                 print(f"[{self.agent.agent_name}] Received data from DataCollector: {msg.body}")
-                msg_to_send = Message("decisionmaker@localhost", metadata=dict(performative="submit"))
+                msg_to_send = Message("decisionmaker@localhost", metadata=dict(performative="inform"))
                 msg_to_send.body = dumps(dict(health_status="poor", blod_pressure="height"))
                 await self.send(msg_to_send)
             else:

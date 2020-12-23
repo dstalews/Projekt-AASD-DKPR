@@ -8,7 +8,7 @@ from spade.template import Template
 
 DECISION_MAKER_DATA_TEMPLATE: Template = Template(
     sender="decisionmaker@localhost",
-    metadata=dict(performative="submit")
+    metadata=dict(performative="inform")
 )
 
 

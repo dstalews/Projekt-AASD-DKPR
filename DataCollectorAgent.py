@@ -20,7 +20,7 @@ PERFORMED_ACTION_MESSAGE_TEMPLATE: Template = Template(
 )
 
 REQUEST_DATA_TEMPLATE: Template = Template(
-    metadata=dict(performative="request_data"),
+    metadata=dict(performative="request"),
 )
 
 
@@ -46,7 +46,7 @@ class DataCollectorAgent(agent.Agent):
                 print(f"[{self.agent.agent_name}] Received data request from HealthAnalyzer")
                 msg_to_send = Message(
                     "healthanalyzer@localhost",
-                    metadata=dict(performative="submit"),
+                    metadata=dict(performative="inform"),
                 )
                 msg_to_send.body = dumps(self.agent.data)
                 await self.send(msg_to_send)
@@ -62,7 +62,7 @@ class DataCollectorAgent(agent.Agent):
             local_data: Data = dict(
                 data_int=10
             )
-            msg_to_send = Message(to="healthanalyzer@localhost", metadata=dict(performative="submit"))
+            msg_to_send = Message(to="healthanalyzer@localhost", metadata=dict(performative="inform"))
             msg_to_send.body = dumps(local_data)
             self.agent.data = local_data
             await self.send(msg_to_send)
