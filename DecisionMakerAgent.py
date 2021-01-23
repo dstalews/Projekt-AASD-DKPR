@@ -1,5 +1,5 @@
 import asyncio
-from json import dumps
+from json import dumps, load, loads
 
 from spade import agent
 from spade.behaviour import CyclicBehaviour, OneShotBehaviour
@@ -11,21 +11,22 @@ HEALTH_ANALYZER_DATA_TEMPLATE: Template = Template(
     metadata=dict(performative="inform")
 )
 
+with open("actions.json", "r") as read_file:
+    actions = load(read_file)
 
 class DecisionMakerAgent(agent.Agent):
     decision: dict = dict()
     agent_name: str
+    message: dict
+    
 
     class MakeDecision(OneShotBehaviour):
         async def run(self):
             print(f"[{self.agent.agent_name}] Making decision")
             await asyncio.sleep(2)
-            self.agent.decision = dict(
-                type='walk',
-                requirements=dict(
-                    min_len=10,
-                )
-            )
+            data = loads(self.agent.message)
+            key = str(data['heartbeat']) + str(data['pressure']) + str(data['bmi']) + str(data['age'])
+            self.agent.decision = actions[key]
 
         async def on_end(self):
             msg_to_send: Message = Message("actionexecutor@localhost", metadata=dict(performative="inform"))
@@ -39,6 +40,7 @@ class DecisionMakerAgent(agent.Agent):
 
             if msg:
                 print(f"[{self.agent.agent_name}] Received data from HealthAnalyzer: {msg.body}")
+                self.agent.message = msg.body
                 self.agent.make_decision = self.agent.MakeDecision()
                 self.agent.add_behaviour(self.agent.make_decision)
                 await self.agent.make_decision.join()
