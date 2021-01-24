@@ -43,23 +43,6 @@ actions = [
     },
     {
         "actions": {
-            "noop": {
-                "payload": {
-                }
-            }
-        }
-    },
-    {
-        "actions": {
-            "emergency": {
-                "payload": {
-                    "phone-number": "+48123123123"
-                }
-            }
-        }
-    },
-    {
-        "actions": {
             "walk": {
                 "payload": {
                     "duration": 120,
@@ -86,6 +69,23 @@ actions = [
                 }
             }
         }
+    },
+    {
+        "actions": {
+            "noop": {
+                "payload": {
+                }
+            }
+        }
+    },
+    {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
     }
 ]
 
@@ -97,7 +97,12 @@ if __name__ == "__main__":
                 for z in ['1','2','3','4']:
                     for v in ['1','2','3','4']:
                         key = x+y+z+v
-                        action = random.randint(0, 6)
+                        if x=='2' and y=='2':
+                            action = 6
+                        elif x=='4' or y=='4':
+                            action = 7
+                        else:
+                            action = random.randint(0, 5)
                         output.update(dict([(key,actions[action])]))
         json.dump(output, write_file, indent=4)
 
