@@ -65,6 +65,8 @@ def calculate_bmi(weight, height):
     return weight / ((height/100)*(height/100))
 
 def categorize_bmi(bmi):
+    if bmi < 16:
+        return 4
     if bmi < 18.5:
         return 1
     if bmi < 25:
@@ -75,6 +77,8 @@ def categorize_bmi(bmi):
         return 4
 
 def categorize_blood_pressure(blood_pressure):
+    if blood_pressure < 90:
+        return 4
     if blood_pressure < 110:
         return 1
     if blood_pressure < 130:
@@ -95,6 +99,8 @@ def categorize_age(age):
         return 4
 
 def categorize_heart_beat(heart_beat):
+    if heart_beat < 45:
+        return 4
     if heart_beat < 60:
         return 1
     if heart_beat < 80:
