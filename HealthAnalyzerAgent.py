@@ -41,10 +41,10 @@ class HealthAnalyzerAgent(agent.Agent):
                 height = int(data['hight'])
 
                 bmi = calculate_bmi(weight, height)
-                heart_beat_range = categorize_heart_beat(heart_beat)
+                age_range = categorize_age(age)
                 bmi_range = categorize_bmi(bmi)
-                blood_pressure_range = categorize_blood_pressure(blood_pressure)
-                age_range = categorize_age(age)             
+                heart_beat_range = categorize_heart_beat(heart_beat, age_range)
+                blood_pressure_range = categorize_blood_pressure(blood_pressure, age_range)            
 
                 msg_to_send = Message("decisionmaker@localhost", metadata=dict(performative="inform"))
                 msg_to_send.body = json.dumps(dict(heartbeat=heart_beat_range, pressure=blood_pressure_range, bmi=bmi_range, age=age_range))
@@ -64,6 +64,16 @@ class HealthAnalyzerAgent(agent.Agent):
 def calculate_bmi(weight, height):
     return weight / ((height/100)*(height/100))
 
+def categorize_age(age):
+    if age < 18:
+        return 1
+    if age < 40:
+        return 2
+    if age < 60:
+        return 3
+    else:
+        return 4
+
 def categorize_bmi(bmi):
     if bmi < 16:
         return 4
@@ -76,36 +86,94 @@ def categorize_bmi(bmi):
     else:
         return 4
 
-def categorize_blood_pressure(blood_pressure):
-    if blood_pressure < 90:
-        return 4
-    if blood_pressure < 110:
-        return 1
-    if blood_pressure < 130:
-        return 2
-    if blood_pressure < 160:
-        return 3
-    else:
-        return 4
+def categorize_blood_pressure(blood_pressure, age_range):
+    if age_range == 1:
+        if blood_pressure < 90:
+            return 4
+        if blood_pressure < 110:
+            return 1
+        if blood_pressure < 125:
+            return 2
+        if blood_pressure < 140:
+            return 3
+        else:
+            return 4
+    if age_range == 2:
+        if blood_pressure < 100:
+            return 4
+        if blood_pressure < 115:
+            return 1
+        if blood_pressure < 135:
+            return 2
+        if blood_pressure < 150:
+            return 3
+        else:
+            return 4
+    if age_range == 3:
+        if blood_pressure < 105:
+            return 4
+        if blood_pressure < 120:
+            return 1
+        if blood_pressure < 140:
+            return 2
+        if blood_pressure < 160:
+            return 3
+        else:
+            return 4
+    if age_range == 4:
+        if blood_pressure < 110:
+            return 4
+        if blood_pressure < 125:
+            return 1
+        if blood_pressure < 145:
+            return 2
+        if blood_pressure < 165:
+            return 3
+        else:
+            return 4
 
-def categorize_age(age):
-    if age < 18:
-        return 1
-    if age < 40:
-        return 2
-    if age < 60:
-        return 3
-    else:
-        return 4
-
-def categorize_heart_beat(heart_beat):
-    if heart_beat < 45:
-        return 4
-    if heart_beat < 60:
-        return 1
-    if heart_beat < 80:
-        return 2
-    if heart_beat < 100:
-        return 3
-    else:
-        return 4
+def categorize_heart_beat(heart_beat, age_range):
+    if age_range == 1:
+        if heart_beat < 55:
+            return 4
+        if heart_beat < 75:
+            return 1
+        if heart_beat < 95:
+            return 2
+        if heart_beat < 125:
+            return 3
+        else:
+            return 4
+    if age_range == 2:
+        if heart_beat < 50:
+            return 4
+        if heart_beat < 70:
+            return 1
+        if heart_beat < 90:
+            return 2
+        if heart_beat < 120:
+            return 3
+        else:
+            return 4
+    if age_range == 3:
+        if heart_beat < 45:
+            return 4
+        if heart_beat < 60:
+            return 1
+        if heart_beat < 80:
+            return 2
+        if heart_beat < 110:
+            return 3
+        else:
+            return 4
+    if age_range == 4:
+        if heart_beat < 40:
+            return 4
+        if heart_beat < 50:
+            return 1
+        if heart_beat < 70:
+            return 2
+        if heart_beat < 90:
+            return 3
+        else:
+            return 4
