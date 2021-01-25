@@ -15,6 +15,11 @@ DATA_COLLECTOR_DATA_TEMPLATE: Template = Template(
 class HealthAnalyzerAgent(agent.Agent):
     agent_name: str
 
+    def __init__(self, logger, id, *args, **kwargs):
+        self.logger = logger
+        self.id = id
+        super(HealthAnalyzerAgent, self).__init__(*args, **kwargs)
+
     class RequestData(OneShotBehaviour):
         async def run(self):
             msg = Message(
@@ -26,14 +31,11 @@ class HealthAnalyzerAgent(agent.Agent):
     class RetrieveData(CyclicBehaviour):
         async def run(self):
             print(f"[{self.agent.agent_name}] Cyclic behaviour. I'm waiting for DataCollector's data")
-            # msg = await self.receive(timeout=60) # TODO: uncomment after merge
-            msg = dict(heartbeat=101, pressure=120, age=21, weight=78, hight=182) # TODO: comment after merge
-            await asyncio.sleep(10) # TODO: comment after merge
+            msg = await self.receive(timeout=60) # TODO: uncomment after merge
 
             if msg:
-                # print(f"[{self.agent.agent_name}] Received data from DataCollector: {msg.body}") # TODO: uncomment after merge
-                # data = json.loads(msg.body) # TODO: uncomment after merge
-                data = msg # TODO: comment after merge
+                print(f"[{self.agent.agent_name}] Received data from DataCollector: {msg.body}") # TODO: uncomment after merge
+                data = json.loads(msg.body) # TODO: uncomment after merge
                 heart_beat = int(data['heartbeat'])
                 blood_pressure = int(data['pressure'])
                 age = int(data['age'])

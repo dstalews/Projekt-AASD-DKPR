@@ -17,7 +17,11 @@ class DecisionMakerAgent(agent.Agent):
     decision: dict = dict()
     agent_name: str
     message: dict
-    
+
+    def __init__(self, logger, id, *args, **kwargs):
+        self.logger = logger
+        self.id = id
+        super(DecisionMakerAgent, self).__init__(*args, **kwargs)
 
     class MakeDecision(OneShotBehaviour):
         async def run(self):

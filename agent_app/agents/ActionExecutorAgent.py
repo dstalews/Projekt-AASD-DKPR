@@ -21,7 +21,7 @@ class ActionExecutorAgent(agent.Agent):
 
     class ExecuteAction(OneShotBehaviour):
         async def run(self):
-            self.agent.logger.info(f"[{self.agent.agent_name}] Executing action {self.agent.decision['type']}")
+            self.agent.logger.info(f"[{self.agent.agent_name}] Executing action {self.agent.decision['actions']}")
             await asyncio.sleep(1)
 
         async def on_end(self):
@@ -36,7 +36,7 @@ class ActionExecutorAgent(agent.Agent):
             msg = await self.receive(timeout=10)
 
             if msg:
-                self.agent.logger.info(f"[{self.agent.agent_name}] Received data from HealthAnalyzer: {msg.body}")
+                self.agent.logger.info(f"[{self.agent.agent_name}] Received data from DecisionMaker: {msg.body}")
                 self.agent.decision = loads(msg.body)
                 self.agent.execute_action = self.agent.ExecuteAction()
                 self.agent.add_behaviour(self.agent.execute_action)

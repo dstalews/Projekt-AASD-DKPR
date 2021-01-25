@@ -263,7 +263,7 @@ def api_all():
     result = []
     users = User.query.all()
     for user in users:
-        userhealth = UserHealth.query.filter_by(userID = user.id).first()
+        userhealth = UserHealth.query.filter_by(userID = user.id).order_by(UserHealth.time.desc()).first()
         data = {
         'id' : user.id ,
         'age' : user.age ,
@@ -286,7 +286,7 @@ def api_id():
         return "Error: No id field provided. Please specify an id."
 
     # Create an empty list for our results
-    userhealth = UserHealth.query.filter_by(userID = id).first()
+    userhealth = UserHealth.query.filter_by(userID = id).order_by(UserHealth.time.desc()).first()
     user = User.query.filter_by(id = id).first()
     data = {
     'id' : user.id ,

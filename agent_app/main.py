@@ -62,7 +62,7 @@ def run_agent(user):
     data_collector_agent: DataCollectorAgent = DataCollectorAgent(agent_logger, id, f"datacollectorid{id}@localhost", user['password'])
     health_analyzer_agent: HealthAnalyzerAgent = HealthAnalyzerAgent(agent_logger,id, f"healthanalyzerid{id}@localhost", user['password'])
     decision_maker_agent: DecisionMakerAgent = DecisionMakerAgent(agent_logger, id, f"decisionmakerid{id}@localhost", user['password'])
-    action_executor_agent: ActionExecutorAgent = ActionExecutorAgent(agent_logger,id, f"factionexecutorid{id}@localhost", user['password'])
+    action_executor_agent: ActionExecutorAgent = ActionExecutorAgent(agent_logger,id, f"actionexecutorid{id}@localhost", user['password'])
     health_analyzer_agent.start()
     data_collector_agent.start()
     decision_maker_agent.start()
@@ -94,30 +94,30 @@ def run(users):
         run_agent_start(user)
     logger.info("Agents Finished") 
 
-def main():
+# def main():
 
-    logger.info("Run Agents")
-    agent_logger = logger.getChild('agent1')
-    data_collector_agent: DataCollectorAgent = DataCollectorAgent(agent_logger,"datacollectorID{self.id}@localhost", "pass1")
-    health_analyzer_agent: HealthAnalyzerAgent = HealthAnalyzerAgent("healthanalyzerID{self.id}@localhost", "pass")
-    decision_maker_agent: DecisionMakerAgent = DecisionMakerAgent("decisionmakerID{self.id}@localhost", "pass")
-    action_executor_agent: ActionExecutorAgent = ActionExecutorAgent("actionexecutorID{self.id}@localhost", "pass")
+#     logger.info("Run Agents")
+#     agent_logger = logger.getChild('agent1')
+#     data_collector_agent: DataCollectorAgent = DataCollectorAgent(agent_logger,"datacollectorID{self.id}@localhost", "pass1")
+#     health_analyzer_agent: HealthAnalyzerAgent = HealthAnalyzerAgent("healthanalyzerID{self.id}@localhost", "pass")
+#     decision_maker_agent: DecisionMakerAgent = DecisionMakerAgent("decisionmakerID{self.id}@localhost", "pass")
+#     action_executor_agent: ActionExecutorAgent = ActionExecutorAgent("actionexecutorID{self.id}@localhost", "pass")
     
-    health_analyzer_agent.start()
-    data_collector_agent.start()
-    decision_maker_agent.start()
-    action_executor_agent.start()
-    time.sleep(1)
-    while data_collector_agent.is_alive():
-        try:
-            time.sleep(1)
-        except KeyboardInterrupt:
-            data_collector_agent.stop()
-            health_analyzer_agent.stop()
-            decision_maker_agent.stop()
-            action_executor_agent.stop()
-            break
-    logger.info("Agents Finished")
+#     health_analyzer_agent.start()
+#     data_collector_agent.start()
+#     decision_maker_agent.start()
+#     action_executor_agent.start()
+#     time.sleep(1)
+#     while data_collector_agent.is_alive():
+#         try:
+#             time.sleep(1)
+#         except KeyboardInterrupt:
+#             data_collector_agent.stop()
+#             health_analyzer_agent.stop()
+#             decision_maker_agent.stop()
+#             action_executor_agent.stop()
+#             break
+#     logger.info("Agents Finished")
 
 
 if __name__ == "__main__":
