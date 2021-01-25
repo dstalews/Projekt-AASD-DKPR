@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="topnav">
+    {% if session.logged_in %}
+        <a href="/logout/">Logout</a>
+    {% else %}
+        <a href="/login/">Login</a>
+        <a href="/register/">Sign up</a>
+    {% endif %}
+</div>
+<hr>
+
+{% if session['logged_in'] %}
+    <h5>Welcome, {{session['username'] }}</h5>
+
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Attribute</th>
+      <th scope="col">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">temperature</th>
+      <td>{{ session['temperature'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row">pressure</th>
+      <td>{{ session['pressure'] }}</td>
+    </tr>
+    <tr>
+      <th scope="row">heartbeat</th>
+      <td>{{ session['heartbeat'] }}</td>
+    </tr>
+    <tr>
+        <th scope="row">weight</th>
+        <td>{{ session['weight'] }}</td>
+    </tr>
+    <tr>
+        <th scope="row">hight</th>
+        <td>{{ session['hight'] }}</td>  
+    </tr>
+    <tr>
+        <th scope="row">time</th>
+        <td>{{ session['time'] }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<a href="/update/" class="btn btn-primary">Update Health Status</a>
+<a href="/action/" class="btn btn-primary">Update Action Status</a>
+
+{% endif %}
+{% endblock body %}

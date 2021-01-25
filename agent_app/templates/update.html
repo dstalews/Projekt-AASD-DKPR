@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+{% from "includes/formhelpers.html" import render_field %}
+
+<h4>
+    <strong>
+        Update Health Status
+    </strong>
+</h4>
+<hr>
+
+<form method="POST">
+
+    {{ render_field(form.temperature, class="form-control",value=session['temperature']) }}
+    {{ render_field(form.pressure, class="form-control",value=session['pressure']) }}
+    {{ render_field(form.heartbeat, class="form-control",value=session['heartbeat']) }}
+    {{ render_field(form.weight, class="form-control",value=session['weight']) }}
+    {{ render_field(form.hight, class="form-control",value=session['hight']) }}
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+<hr>
+
+
+{% endblock body %}
