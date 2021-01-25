@@ -1,0 +1,2548 @@
+{
+    "1111": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1112": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1113": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1114": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1121": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1122": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1123": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1124": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1131": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1132": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1133": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1134": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1141": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1142": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1143": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1144": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1211": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1212": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1213": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1214": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1221": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1222": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1223": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1224": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1231": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1232": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1233": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1234": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1241": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1242": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1243": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1244": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1311": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1312": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1313": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1314": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1321": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1322": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1323": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1324": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1331": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1332": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "1333": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1334": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1341": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1342": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "1343": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "1344": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "1411": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1412": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1413": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1414": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1421": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1422": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1423": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1424": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1431": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1432": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1433": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1434": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1441": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1442": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1443": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "1444": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2111": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "2112": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2113": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2114": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2121": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2122": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "2123": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2124": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2131": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "2132": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2133": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2134": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "2141": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "2142": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2143": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2144": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2211": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2212": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2213": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2214": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2221": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2222": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2223": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2224": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2231": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2232": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2233": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2234": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2241": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2242": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2243": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2244": {
+        "actions": {
+            "noop": {
+                "payload": {}
+            }
+        }
+    },
+    "2311": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "2312": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "2313": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2314": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2321": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "2322": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "2323": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "2324": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "2331": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "2332": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2333": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "2334": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2341": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "2342": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "2343": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2344": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "2411": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2412": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2413": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2414": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2421": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2422": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2423": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2424": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2431": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2432": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2433": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2434": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2441": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2442": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2443": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "2444": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3111": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3112": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3113": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3114": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "3121": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "3122": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3123": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3124": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "3131": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3132": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3133": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "3134": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "3141": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3142": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3143": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3144": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3211": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "3212": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "3213": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "3214": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3221": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3222": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3223": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3224": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3231": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "3232": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3233": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3234": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "3241": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3242": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "3243": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "3244": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "3311": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3312": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3313": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3314": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3321": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3322": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3323": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3324": {
+        "actions": {
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3331": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3332": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "3333": {
+        "actions": {
+            "spotify": {
+                "payload": {
+                    "url": "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR"
+                }
+            }
+        }
+    },
+    "3334": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3341": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            },
+            "talk": {
+                "payload": {}
+            }
+        }
+    },
+    "3342": {
+        "actions": {
+            "walk": {
+                "payload": {
+                    "duration": 120,
+                    "min-duration": 90
+                }
+            }
+        }
+    },
+    "3343": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "3344": {
+        "actions": {
+            "sleep": {
+                "payload": {
+                    "duration": 30,
+                    "min-duration": 25,
+                    "max-duration": 40
+                }
+            }
+        }
+    },
+    "3411": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3412": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3413": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3414": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3421": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3422": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3423": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3424": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3431": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3432": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3433": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3434": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3441": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3442": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3443": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "3444": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4111": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4112": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4113": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4114": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4121": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4122": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4123": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4124": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4131": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4132": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4133": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4134": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4141": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4142": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4143": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4144": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4211": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4212": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4213": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4214": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4221": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4222": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4223": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4224": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4231": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4232": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4233": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4234": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4241": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4242": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4243": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4244": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4311": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4312": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4313": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4314": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4321": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4322": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4323": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4324": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4331": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4332": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4333": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4334": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4341": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4342": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4343": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4344": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4411": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4412": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4413": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4414": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4421": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4422": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4423": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4424": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4431": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4432": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4433": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4434": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4441": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4442": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4443": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    },
+    "4444": {
+        "actions": {
+            "emergency": {
+                "payload": {
+                    "phone-number": "+48123123123"
+                }
+            }
+        }
+    }
+}

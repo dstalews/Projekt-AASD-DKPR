@@ -1,5 +1,5 @@
 import asyncio
-from json import dumps
+from json import dumps, load, loads
 
 from spade import agent
 from spade.behaviour import CyclicBehaviour, OneShotBehaviour
@@ -10,25 +10,22 @@ HEALTH_ANALYZER_DATA_TEMPLATE: Template = Template(
     metadata=dict(performative="inform")
 )
 
+with open("actions.json", "r") as read_file:
+    actions = load(read_file)
+
 class DecisionMakerAgent(agent.Agent):
     decision: dict = dict()
     agent_name: str
-
-    def __init__(self, logger, id, *args, **kwargs):
-        self.logger = logger
-        self.id = id
-        super(DecisionMakerAgent, self).__init__(*args, **kwargs)
+    message: dict
+    
 
     class MakeDecision(OneShotBehaviour):
         async def run(self):
-            self.agent.logger.info(f"[{self.agent.agent_name}] Making decision")
+            print(f"[{self.agent.agent_name}] Making decision")
             await asyncio.sleep(2)
-            self.agent.decision = dict(
-                type='walk',
-                requirements=dict(
-                    min_len=10,
-                )
-            )
+            data = loads(self.agent.message)
+            key = str(data['heartbeat']) + str(data['pressure']) + str(data['bmi']) + str(data['age'])
+            self.agent.decision = actions[key]
 
         async def on_end(self):
             msg_to_send: Message = Message(f"actionexecutorID{self.agent.id}@localhost", metadata=dict(performative="inform"))
@@ -37,22 +34,23 @@ class DecisionMakerAgent(agent.Agent):
 
     class RetrieveData(CyclicBehaviour):
         async def run(self):
-            self.agent.logger.info(f"[{self.agent.agent_name}] Cyclic behaviour. I'm waiting for HealthAnalyzer's data")
+            print(f"[{self.agent.agent_name}] Cyclic behaviour. I'm waiting for HealthAnalyzer's data")
             msg = await self.receive(timeout=15)
 
             if msg:
-                self.agent.logger.info(f"[{self.agent.agent_name}] Received data from HealthAnalyzer: {msg.body}")
+                print(f"[{self.agent.agent_name}] Received data from HealthAnalyzer: {msg.body}")
+                self.agent.message = msg.body
                 self.agent.make_decision = self.agent.MakeDecision()
                 self.agent.add_behaviour(self.agent.make_decision)
                 await self.agent.make_decision.join()
 
-                self.agent.logger.info(f"[{self.agent.agent_name}] Made decision: {self.agent.decision}")
+                print(f"[{self.agent.agent_name}] Made decision: {self.agent.decision}")
             else:
-                self.agent.logger.info(f"[{self.agent.agent_name}] Didn't receive data from HealthAnalyzer")
+                print(f"[{self.agent.agent_name}] Didn't receive data from HealthAnalyzer")
 
     async def setup(self):
         self.agent_name = "DecisionMaker"
-        self.logger.info(
-            f"[{self.agent_name}] Hello World! I'm agent {self.name} I'm deciding what to do based on data received from HealthAnalyzer!")
+        print(
+            f"[{self.agent_name}] Hello World! I'm agent {self.jid} I'm deciding what to do based on data received from HealthAnalyzer!")
         retrieve_data_b = self.RetrieveData()
         self.add_behaviour(retrieve_data_b, template=HEALTH_ANALYZER_DATA_TEMPLATE)
