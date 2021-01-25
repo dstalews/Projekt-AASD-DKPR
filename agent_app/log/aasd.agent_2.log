@@ -1,0 +1,966 @@
+2021-01-25 12:39:06,086 [INFO]: [DecisionMaker] Hello World! I'm agent decisionmakerid2 I'm deciding what to do based on data received from HealthAnalyzer!
+2021-01-25 12:39:06,089 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 12:39:06,111 [INFO]: [ActionExecutor] Hello World! I'm agent factionexecutorid2 I'm executing action made by DecisionMaker!
+2021-01-25 12:39:06,113 [INFO]: [HealthAnalyzer] Hello World! I'm agent healthanalyzerid2 I'm analyzing your health!
+2021-01-25 12:39:06,113 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:39:06,113 [INFO]: [DataCollector] Hello World! I'm agent datacollectorid2
+2021-01-25 12:39:06,114 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 12:39:11,115 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 12:39:11,115 [INFO]: [DataCollector] Collecting data
+2021-01-25 12:39:16,114 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:39:16,114 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:39:16,116 [INFO]: [DataCollector] Data collected
+2021-01-25 12:39:16,116 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 12:39:16,118 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 12:39:21,091 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 12:39:21,091 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 12:39:21,123 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 12:39:26,117 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:39:26,117 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:39:31,115 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 12:39:31,115 [INFO]: [DataCollector] Collecting data
+2021-01-25 12:39:36,092 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 12:39:36,092 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 12:39:36,116 [INFO]: [DataCollector] Data collected
+2021-01-25 12:39:36,116 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 12:39:36,117 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 12:39:36,118 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:39:36,118 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:39:36,131 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 12:39:46,119 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:39:46,119 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:39:51,094 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 12:39:51,094 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 12:39:51,116 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 12:39:51,116 [INFO]: [DataCollector] Collecting data
+2021-01-25 12:39:51,139 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 12:39:56,117 [INFO]: [DataCollector] Data collected
+2021-01-25 12:39:56,118 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 12:39:56,119 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 12:39:56,120 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:39:56,121 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:40:06,095 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 12:40:06,095 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 12:40:06,121 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:40:06,122 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:40:06,149 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 12:40:11,115 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 12:40:11,116 [INFO]: [DataCollector] Collecting data
+2021-01-25 12:40:16,117 [INFO]: [DataCollector] Data collected
+2021-01-25 12:40:16,117 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 12:40:16,119 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 12:40:16,123 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:40:16,123 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:40:21,097 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 12:40:21,097 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 12:40:21,157 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 12:40:26,125 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:40:26,125 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:40:31,115 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 12:40:31,115 [INFO]: [DataCollector] Collecting data
+2021-01-25 12:40:36,098 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 12:40:36,098 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 12:40:36,116 [INFO]: [DataCollector] Data collected
+2021-01-25 12:40:36,116 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 12:40:36,118 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 12:40:36,127 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:40:36,127 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:40:36,166 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 12:40:46,128 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:40:46,128 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:40:51,100 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 12:40:51,100 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 12:40:51,115 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 12:40:51,115 [INFO]: [DataCollector] Collecting data
+2021-01-25 12:40:51,175 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 12:40:56,117 [INFO]: [DataCollector] Data collected
+2021-01-25 12:40:56,117 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 12:40:56,119 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 12:40:56,131 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:40:56,131 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:41:06,102 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 12:41:06,102 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 12:41:06,133 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:41:06,133 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 12:41:06,233 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 12:41:11,115 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 12:41:11,115 [INFO]: [DataCollector] Collecting data
+2021-01-25 12:41:16,116 [INFO]: [DataCollector] Data collected
+2021-01-25 12:41:16,117 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 12:41:16,118 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 12:41:16,135 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 12:41:16,135 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:12:00,969 [INFO]: [DataCollector] Hello World! I'm agent datacollectorid2
+2021-01-25 13:12:01,220 [INFO]: [DecisionMaker] Hello World! I'm agent decisionmakerid2 I'm deciding what to do based on data received from HealthAnalyzer!
+2021-01-25 13:12:01,221 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:12:01,238 [INFO]: [HealthAnalyzer] Hello World! I'm agent healthanalyzerid2 I'm analyzing your health!
+2021-01-25 13:12:01,239 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:12:01,239 [INFO]: [ActionExecutor] Hello World! I'm agent factionexecutorid2 I'm executing action made by DecisionMaker!
+2021-01-25 13:12:01,240 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:12:05,972 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:12:05,972 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:12:10,973 [INFO]: [DataCollector] Data collected
+2021-01-25 13:12:10,973 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:12:10,976 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:12:11,241 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:12:11,242 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:12:16,223 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:12:16,224 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:12:16,248 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:12:21,243 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:12:21,243 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:12:25,971 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:12:25,971 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:12:30,972 [INFO]: [DataCollector] Data collected
+2021-01-25 13:12:30,973 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:12:30,982 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:12:31,238 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:12:31,241 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:12:31,258 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:12:31,265 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:12:31,308 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:12:41,269 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:12:41,269 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:12:45,971 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:12:45,972 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:12:46,246 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:12:46,249 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:12:46,331 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:12:50,974 [INFO]: [DataCollector] Data collected
+2021-01-25 13:12:50,974 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:12:50,982 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:12:51,275 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:12:51,275 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:13:01,270 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:13:01,272 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:13:01,281 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:13:01,282 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:13:01,369 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:13:05,972 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:13:05,972 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:13:10,974 [INFO]: [DataCollector] Data collected
+2021-01-25 13:13:10,975 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:13:10,983 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:13:11,284 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:13:11,287 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:13:16,276 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:13:16,278 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:13:16,432 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:13:21,290 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:13:21,291 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:13:25,972 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:13:25,973 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:13:30,981 [INFO]: [DataCollector] Data collected
+2021-01-25 13:13:30,982 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:13:30,997 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:13:31,280 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:13:31,282 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:13:31,301 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:13:31,302 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:13:31,453 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:13:41,305 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:13:41,305 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:13:45,981 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:13:45,984 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:13:46,284 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:13:46,286 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:13:46,472 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:13:50,986 [INFO]: [DataCollector] Data collected
+2021-01-25 13:13:50,987 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:13:51,000 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:13:51,307 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:13:51,308 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:14:01,290 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:14:01,293 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:14:01,311 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:14:01,311 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:14:01,490 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:14:05,972 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:14:05,974 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:14:10,976 [INFO]: [DataCollector] Data collected
+2021-01-25 13:14:10,977 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:14:10,988 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:14:11,314 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:14:11,316 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:14:16,299 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:14:16,307 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:14:16,502 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:14:21,318 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:14:21,319 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:14:25,972 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:14:25,973 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:14:30,975 [INFO]: [DataCollector] Data collected
+2021-01-25 13:14:30,975 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:14:30,981 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:14:31,311 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:14:31,312 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:14:31,323 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:14:31,324 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:14:31,517 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:14:41,326 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:14:41,327 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:14:45,972 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:14:45,973 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:14:46,315 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:14:46,316 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:14:46,534 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:14:50,974 [INFO]: [DataCollector] Data collected
+2021-01-25 13:14:50,975 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:14:50,984 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:14:51,330 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:14:51,331 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:15:01,318 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:15:01,319 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:15:01,333 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:15:01,333 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:15:01,548 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:15:05,974 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:15:05,974 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:15:10,976 [INFO]: [DataCollector] Data collected
+2021-01-25 13:15:10,977 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:15:10,982 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:15:11,337 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:15:11,339 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:15:16,320 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:15:16,321 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:15:16,557 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:15:21,345 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:15:21,345 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:15:25,971 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:15:25,972 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:15:30,974 [INFO]: [DataCollector] Data collected
+2021-01-25 13:15:30,975 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:15:30,987 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:15:31,324 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:15:31,324 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:15:31,349 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:15:31,349 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:15:31,571 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:15:41,355 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:15:41,356 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:15:45,972 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:15:45,973 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:15:46,327 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:15:46,328 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:15:46,588 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:15:50,975 [INFO]: [DataCollector] Data collected
+2021-01-25 13:15:50,975 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:15:50,984 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:15:51,359 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:15:51,359 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:16:01,330 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:16:01,331 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:16:01,360 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:16:01,361 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:16:01,601 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:16:05,972 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:16:05,972 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:16:10,974 [INFO]: [DataCollector] Data collected
+2021-01-25 13:16:10,975 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:16:10,981 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:16:11,362 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:16:11,363 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:16:16,333 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:16:16,333 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:16:16,616 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:16:21,367 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:16:21,368 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:16:25,971 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:16:25,972 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:16:30,974 [INFO]: [DataCollector] Data collected
+2021-01-25 13:16:30,974 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:16:30,981 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:16:31,338 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:16:31,339 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:16:31,372 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:16:31,374 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:16:31,629 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:16:41,377 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:16:41,378 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:16:45,971 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 13:16:45,972 [INFO]: [DataCollector] Collecting data
+2021-01-25 13:16:46,342 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:16:46,343 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:16:46,645 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 13:16:50,974 [INFO]: [DataCollector] Data collected
+2021-01-25 13:16:50,975 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 13:16:50,981 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 13:16:51,381 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:16:51,381 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:17:01,346 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 13:17:01,347 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 13:17:01,389 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 13:17:01,390 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 13:17:01,662 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:48:39,190 [INFO]: [DataCollector] Hello World! I'm agent datacollectorid2
+2021-01-25 18:48:39,278 [INFO]: [HealthAnalyzer] Hello World! I'm agent healthanalyzerid2 I'm analyzing your health!
+2021-01-25 18:48:39,278 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:48:39,343 [INFO]: [DecisionMaker] Hello World! I'm agent decisionmakerid2 I'm deciding what to do based on data received from HealthAnalyzer!
+2021-01-25 18:48:39,343 [INFO]: [ActionExecutor] Hello World! I'm agent factionexecutorid2 I'm executing action made by DecisionMaker!
+2021-01-25 18:48:39,344 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:48:39,344 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:48:44,193 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:48:44,193 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:48:49,194 [INFO]: [DataCollector] Data collected
+2021-01-25 18:48:49,195 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:48:49,196 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:48:49,345 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:48:49,346 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:48:54,284 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:48:54,345 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:48:54,345 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:48:59,346 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:48:59,347 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:49:04,191 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:49:04,191 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:49:09,193 [INFO]: [DataCollector] Data collected
+2021-01-25 18:49:09,193 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:49:09,194 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:49:09,287 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:49:09,348 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:49:09,348 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:49:09,349 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:49:09,349 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:49:19,350 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:49:19,351 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:49:24,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:49:24,192 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:49:24,292 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:49:24,350 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:49:24,350 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:49:29,194 [INFO]: [DataCollector] Data collected
+2021-01-25 18:49:29,194 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:49:29,197 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:49:29,351 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:49:29,351 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:49:39,296 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:49:39,352 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:49:39,352 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:49:39,353 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:49:39,353 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:49:44,193 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:49:44,193 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:49:49,195 [INFO]: [DataCollector] Data collected
+2021-01-25 18:49:49,195 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:49:49,198 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:49:49,354 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:49:49,354 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:49:54,301 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:49:54,353 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:49:54,354 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:49:59,356 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:49:59,356 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:50:04,191 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:50:04,191 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:50:09,193 [INFO]: [DataCollector] Data collected
+2021-01-25 18:50:09,193 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:50:09,195 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:50:09,306 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:50:09,356 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:50:09,356 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:50:09,357 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:50:09,357 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:50:19,358 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:50:19,358 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:50:24,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:50:24,192 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:50:24,310 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:50:24,357 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:50:24,358 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:50:29,194 [INFO]: [DataCollector] Data collected
+2021-01-25 18:50:29,194 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:50:29,196 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:50:29,360 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:50:29,360 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:50:39,314 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:50:39,359 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:50:39,359 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:50:39,361 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:50:39,362 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:50:44,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:50:44,193 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:50:49,194 [INFO]: [DataCollector] Data collected
+2021-01-25 18:50:49,195 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:50:49,198 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:50:49,363 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:50:49,363 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:50:54,319 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:50:54,361 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:50:54,361 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:50:59,364 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:50:59,365 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:51:04,193 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:51:04,193 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:51:09,194 [INFO]: [DataCollector] Data collected
+2021-01-25 18:51:09,194 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:51:09,196 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:51:09,323 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:51:09,363 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:51:09,363 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:51:09,365 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:51:09,365 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:51:19,366 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:51:19,366 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:51:24,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:51:24,193 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:51:24,328 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:51:24,365 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:51:24,365 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:51:29,194 [INFO]: [DataCollector] Data collected
+2021-01-25 18:51:29,194 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:51:29,197 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:51:29,368 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:51:29,368 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:51:39,333 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:51:39,367 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:51:39,367 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:51:39,369 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:51:39,369 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:51:44,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:51:44,192 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:51:49,193 [INFO]: [DataCollector] Data collected
+2021-01-25 18:51:49,193 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:51:49,195 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:51:49,372 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:51:49,372 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:51:54,337 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:51:54,368 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:51:54,369 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:51:59,375 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:51:59,375 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:52:04,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:52:04,192 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:52:09,194 [INFO]: [DataCollector] Data collected
+2021-01-25 18:52:09,195 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:52:09,197 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:52:09,341 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:52:09,371 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:52:09,371 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:52:09,375 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:52:09,376 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:52:19,376 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:52:19,377 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:52:24,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:52:24,192 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:52:24,345 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:52:24,372 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:52:24,373 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:52:29,193 [INFO]: [DataCollector] Data collected
+2021-01-25 18:52:29,194 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:52:29,196 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:52:29,378 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:52:29,379 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:52:39,351 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:52:39,374 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:52:39,375 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:52:39,380 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:52:39,380 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:52:44,193 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:52:44,193 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:52:49,194 [INFO]: [DataCollector] Data collected
+2021-01-25 18:52:49,194 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:52:49,195 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:52:49,381 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:52:49,381 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:52:54,355 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:52:54,376 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:52:54,376 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:52:59,382 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:52:59,382 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:53:04,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:53:04,192 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:53:09,193 [INFO]: [DataCollector] Data collected
+2021-01-25 18:53:09,193 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:53:09,195 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:53:09,359 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:53:09,378 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:53:09,378 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:53:09,383 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:53:09,384 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:53:19,385 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:53:19,385 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:53:24,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:53:24,192 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:53:24,363 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:53:24,379 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:53:24,379 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:53:29,194 [INFO]: [DataCollector] Data collected
+2021-01-25 18:53:29,194 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:53:29,196 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:53:29,386 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:53:29,386 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:53:39,367 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:53:39,380 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:53:39,381 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:53:39,388 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:53:39,388 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:53:44,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:53:44,192 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:53:49,195 [INFO]: [DataCollector] Data collected
+2021-01-25 18:53:49,195 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:53:49,196 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:53:49,389 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:53:49,390 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:53:54,371 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:53:54,382 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:53:54,382 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:53:59,391 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:53:59,391 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:54:04,192 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:54:04,192 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:54:09,194 [INFO]: [DataCollector] Data collected
+2021-01-25 18:54:09,194 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:54:09,195 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:54:09,375 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:54:09,384 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:54:09,384 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:54:09,393 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:54:09,393 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:54:19,394 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:54:19,394 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:58:45,752 [INFO]: [DataCollector] Hello World! I'm agent datacollectorid2
+2021-01-25 18:58:45,958 [INFO]: [DecisionMaker] Hello World! I'm agent decisionmakerid2 I'm deciding what to do based on data received from HealthAnalyzer!
+2021-01-25 18:58:45,961 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:58:45,992 [INFO]: [HealthAnalyzer] Hello World! I'm agent healthanalyzerid2 I'm analyzing your health!
+2021-01-25 18:58:45,992 [INFO]: [ActionExecutor] Hello World! I'm agent factionexecutorid2 I'm executing action made by DecisionMaker!
+2021-01-25 18:58:45,993 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:58:45,994 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:58:50,753 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:58:50,753 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:58:58,369 [INFO]: [DecisionMaker] Hello World! I'm agent decisionmakerid2 I'm deciding what to do based on data received from HealthAnalyzer!
+2021-01-25 18:58:58,370 [INFO]: [DataCollector] Hello World! I'm agent datacollectorid2
+2021-01-25 18:58:58,373 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:58:58,383 [INFO]: [HealthAnalyzer] Hello World! I'm agent healthanalyzerid2 I'm analyzing your health!
+2021-01-25 18:58:58,383 [INFO]: [ActionExecutor] Hello World! I'm agent factionexecutorid2 I'm executing action made by DecisionMaker!
+2021-01-25 18:58:58,383 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:58:58,384 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:59:03,372 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:59:03,372 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:59:08,373 [INFO]: [DataCollector] Data collected
+2021-01-25 18:59:08,373 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:59:08,375 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:59:08,385 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:59:08,385 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:59:13,374 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:59:13,374 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:59:13,390 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 18:59:18,386 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:59:18,386 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:59:23,372 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 18:59:23,372 [INFO]: [DataCollector] Collecting data
+2021-01-25 18:59:28,373 [INFO]: [DataCollector] Data collected
+2021-01-25 18:59:28,374 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 18:59:28,375 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 18:59:28,376 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 18:59:28,376 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 18:59:28,387 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 18:59:28,388 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 18:59:28,395 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:01:13,036 [INFO]: [DataCollector] Hello World! I'm agent datacollectorid2
+2021-01-25 19:01:13,384 [INFO]: [HealthAnalyzer] Hello World! I'm agent healthanalyzerid2 I'm analyzing your health!
+2021-01-25 19:01:13,386 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:01:13,387 [INFO]: [ActionExecutor] Hello World! I'm agent factionexecutorid2 I'm executing action made by DecisionMaker!
+2021-01-25 19:01:13,389 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:01:13,406 [INFO]: [DecisionMaker] Hello World! I'm agent decisionmakerid2 I'm deciding what to do based on data received from HealthAnalyzer!
+2021-01-25 19:01:13,407 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:01:18,038 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:01:18,038 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:01:23,039 [INFO]: [DataCollector] Data collected
+2021-01-25 19:01:23,039 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:01:23,042 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:01:23,391 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:01:23,391 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:01:28,390 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:01:28,409 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:01:28,409 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:01:33,393 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:01:33,393 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:01:38,038 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:01:38,038 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:01:43,039 [INFO]: [DataCollector] Data collected
+2021-01-25 19:01:43,039 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:01:43,042 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:01:43,395 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:01:43,396 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:01:43,398 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:01:43,410 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:01:43,410 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:01:53,397 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:01:53,397 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:01:58,039 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:01:58,039 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:01:58,403 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:01:58,411 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:01:58,411 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:02:03,040 [INFO]: [DataCollector] Data collected
+2021-01-25 19:02:03,040 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:02:03,042 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:02:03,398 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:02:03,398 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:02:13,400 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:02:13,401 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:02:13,411 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:02:13,413 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:02:13,415 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:02:18,038 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:02:18,038 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:02:23,040 [INFO]: [DataCollector] Data collected
+2021-01-25 19:02:23,040 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:02:23,042 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:02:23,402 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:02:23,403 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:02:28,415 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:02:28,416 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:02:28,416 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:02:33,404 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:02:33,405 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:02:38,038 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:02:38,038 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:02:43,039 [INFO]: [DataCollector] Data collected
+2021-01-25 19:02:43,040 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:02:43,042 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:02:43,407 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:02:43,407 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:02:43,418 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:02:43,419 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:02:43,426 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:15:21,796 [INFO]: [DataCollector] Hello World! I'm agent datacollectorid2
+2021-01-25 19:15:22,055 [INFO]: [ActionExecutor] Hello World! I'm agent factionexecutorid2 I'm executing action made by DecisionMaker!
+2021-01-25 19:15:22,056 [INFO]: [DecisionMaker] Hello World! I'm agent decisionmakerid2 I'm deciding what to do based on data received from HealthAnalyzer!
+2021-01-25 19:15:22,057 [INFO]: [HealthAnalyzer] Hello World! I'm agent healthanalyzerid2 I'm analyzing your health!
+2021-01-25 19:15:22,057 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:15:22,058 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:15:22,058 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:15:26,798 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:15:26,798 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:15:31,800 [INFO]: [DataCollector] Data collected
+2021-01-25 19:15:31,800 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:15:32,059 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:15:32,059 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:15:37,059 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:15:37,061 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:15:37,070 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:15:42,061 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:15:42,061 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:15:52,062 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:15:52,063 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:15:52,063 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:15:52,063 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:15:52,081 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:16:02,065 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:16:02,065 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:16:07,064 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:16:07,064 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:16:07,088 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:16:12,067 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:16:12,068 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:16:22,065 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:16:22,065 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:16:22,070 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:16:22,070 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:16:22,098 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:16:32,072 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:16:32,072 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:16:37,068 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:16:37,068 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:16:37,109 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:16:42,074 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:16:42,075 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:16:52,069 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:16:52,069 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:16:52,076 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:16:52,076 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:16:52,119 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:17:02,078 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:17:02,079 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:17:07,072 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:17:07,073 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:17:07,128 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:17:12,080 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:17:12,081 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:17:22,074 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:17:22,075 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:17:22,082 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:17:22,082 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:17:22,137 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:17:32,083 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:17:32,083 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:17:37,076 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:17:37,077 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:17:37,147 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:17:42,085 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:17:42,085 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:17:52,078 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:17:52,079 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:17:52,087 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:17:52,088 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:17:52,156 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:18:02,090 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:18:02,090 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:18:07,080 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:18:07,081 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:18:07,165 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:18:18,583 [INFO]: [DecisionMaker] Hello World! I'm agent decisionmakerid2 I'm deciding what to do based on data received from HealthAnalyzer!
+2021-01-25 19:18:18,584 [INFO]: [ActionExecutor] Hello World! I'm agent factionexecutorid2 I'm executing action made by DecisionMaker!
+2021-01-25 19:18:18,584 [INFO]: [DataCollector] Hello World! I'm agent datacollectorid2
+2021-01-25 19:18:18,586 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:18:18,587 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:18:18,597 [INFO]: [HealthAnalyzer] Hello World! I'm agent healthanalyzerid2 I'm analyzing your health!
+2021-01-25 19:18:18,597 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:18:23,585 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:18:23,585 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:18:28,586 [INFO]: [DataCollector] Data collected
+2021-01-25 19:18:28,586 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:18:28,587 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:18:28,588 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:18:28,589 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:18:28,590 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:18:28,590 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:18:28,591 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:18:28,592 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:18:30,598 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:18:30,599 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:18:38,592 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:18:38,593 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:18:43,585 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:18:43,585 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:18:43,599 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:18:43,601 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:18:45,600 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:18:45,601 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:18:48,588 [INFO]: [DataCollector] Data collected
+2021-01-25 19:18:48,588 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:18:48,588 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:18:48,590 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:18:48,591 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:18:48,592 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:18:48,593 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:18:48,593 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:18:48,593 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:18:50,597 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:18:50,598 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:18:58,594 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:18:58,595 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:19:03,585 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:19:03,585 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:19:03,595 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:19:03,597 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:19:05,599 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:19:05,599 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:19:08,587 [INFO]: [DataCollector] Data collected
+2021-01-25 19:19:08,588 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:19:08,588 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:19:08,590 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:19:08,591 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:19:08,591 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:19:08,592 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:19:08,596 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:19:08,597 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:19:10,598 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:19:10,598 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:19:18,598 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:19:18,598 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:19:23,585 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:19:23,585 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:19:23,595 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:19:23,596 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:19:25,601 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:19:25,601 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:19:28,587 [INFO]: [DataCollector] Data collected
+2021-01-25 19:19:28,587 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:19:28,587 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:19:28,589 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:19:28,590 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:19:28,591 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:19:28,591 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:19:28,601 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:19:28,602 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:19:30,596 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:19:30,596 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:19:38,605 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:19:38,605 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:19:43,584 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:19:43,584 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:19:43,597 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:19:43,598 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:19:45,598 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:19:45,599 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:19:48,587 [INFO]: [DataCollector] Data collected
+2021-01-25 19:19:48,587 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:19:48,587 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:19:48,589 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:19:48,590 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:19:48,591 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:19:48,592 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:19:48,607 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:19:48,607 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:19:50,597 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:19:50,597 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:19:58,608 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:19:58,609 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:20:03,586 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:20:03,586 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:20:03,594 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:20:03,595 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:20:05,599 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:20:05,599 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:20:08,587 [INFO]: [DataCollector] Data collected
+2021-01-25 19:20:08,587 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:20:08,588 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:20:08,589 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:20:08,590 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:20:08,591 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:20:08,591 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:20:08,610 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:20:08,610 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:20:10,596 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:20:10,596 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:20:18,611 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:20:18,612 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:20:23,585 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:20:23,585 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:20:23,594 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:20:23,596 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:20:25,599 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:20:25,599 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:20:28,588 [INFO]: [DataCollector] Data collected
+2021-01-25 19:20:28,588 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:20:28,589 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:20:28,591 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:20:28,592 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:20:28,593 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:20:28,593 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:20:28,614 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:20:28,615 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:20:30,601 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:20:30,601 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:20:38,616 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:20:38,616 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:20:43,584 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:20:43,584 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:20:43,597 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:20:43,599 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:20:45,602 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:20:45,602 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:20:48,587 [INFO]: [DataCollector] Data collected
+2021-01-25 19:20:48,587 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:20:48,588 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:20:48,590 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:20:48,591 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:20:48,592 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:20:48,592 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:20:48,617 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:20:48,617 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:20:50,600 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:20:50,600 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:20:58,619 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:20:58,620 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:21:03,585 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:21:03,585 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:21:03,596 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:21:03,597 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:21:05,602 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:21:05,602 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:21:08,587 [INFO]: [DataCollector] Data collected
+2021-01-25 19:21:08,587 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:21:08,587 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:21:08,589 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:21:08,590 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:21:08,591 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:21:08,591 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:21:08,621 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:21:08,621 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:21:10,598 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:21:10,598 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:21:18,624 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:21:18,624 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:21:23,585 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:21:23,586 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:21:23,597 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:21:23,597 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:21:25,600 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:21:25,600 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:21:28,588 [INFO]: [DataCollector] Data collected
+2021-01-25 19:21:28,588 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:21:28,588 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:21:28,591 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:21:28,592 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:21:28,593 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:21:28,593 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:21:28,627 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:21:28,628 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:21:30,598 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:21:30,598 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:21:38,629 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:21:38,629 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:21:43,585 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:21:43,585 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:21:43,599 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:21:43,601 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:21:45,600 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:21:45,601 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:21:48,587 [INFO]: [DataCollector] Data collected
+2021-01-25 19:21:48,587 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:21:48,587 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:21:48,589 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:21:48,590 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:21:48,591 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:21:48,592 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:21:48,631 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:21:48,631 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:21:50,596 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:21:50,596 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:21:58,632 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:21:58,633 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:22:03,585 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:22:03,585 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:22:03,593 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:22:03,596 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:22:05,597 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:22:05,597 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:22:08,587 [INFO]: [DataCollector] Data collected
+2021-01-25 19:22:08,587 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:22:08,588 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:22:08,590 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"data_int": 10}
+2021-01-25 19:22:08,591 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:22:08,592 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:22:08,593 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:22:08,634 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:22:08,635 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:22:10,597 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:22:10,598 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:22:18,636 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:22:18,637 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:22:23,584 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:22:23,584 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:22:23,595 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:22:23,597 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:22:25,599 [INFO]: [DecisionMaker] Didn't receive data from HealthAnalyzer
+2021-01-25 19:22:25,600 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:29:41,779 [INFO]: [DataCollector] Hello World! I'm agent datacollectorid2
+2021-01-25 19:29:42,052 [INFO]: [ActionExecutor] Hello World! I'm agent factionexecutorid2 I'm executing action made by DecisionMaker!
+2021-01-25 19:29:42,054 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:29:42,055 [INFO]: [DecisionMaker] Hello World! I'm agent decisionmakerid2 I'm deciding what to do based on data received from HealthAnalyzer!
+2021-01-25 19:29:42,057 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:29:42,080 [INFO]: [HealthAnalyzer] Hello World! I'm agent healthanalyzerid2 I'm analyzing your health!
+2021-01-25 19:29:42,081 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:29:46,782 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:29:46,782 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:29:51,783 [INFO]: [DataCollector] Data collected
+2021-01-25 19:29:51,783 [INFO]: [DataCollector] Preparing data to send
+2021-01-25 19:29:51,794 [INFO]: [DataCollector] Request made to API Data: {'age': 1, 'gender': 'M', 'heartbeat': 0, 'hight': 0, 'id': 2, 'pressure': 0, 'temperature': 0, 'weight': 0}
+2021-01-25 19:29:51,798 [INFO]: [DataCollector] Message to Health Analyzer sent!
+2021-01-25 19:29:51,804 [INFO]: [HealthAnalyzer] Received data from DataCollector: {"age": 1, "gender": "M", "heartbeat": 0, "hight": 0, "id": 2, "pressure": 0, "temperature": 0, "weight": 0}
+2021-01-25 19:29:51,806 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data
+2021-01-25 19:29:51,809 [INFO]: [DecisionMaker] Received data from HealthAnalyzer: {"health_status": "poor", "blod_pressure": "height"}
+2021-01-25 19:29:51,813 [INFO]: [DecisionMaker] Making decision
+2021-01-25 19:29:52,054 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:29:52,054 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:29:53,818 [INFO]: [DecisionMaker] Made decision: {'type': 'walk', 'requirements': {'min_len': 10}}
+2021-01-25 19:29:53,818 [INFO]: [DecisionMaker] Cyclic behaviour. I'm waiting for HealthAnalyzer's data
+2021-01-25 19:30:02,055 [INFO]: [ActionExecutor] Didn't receive data from DecisionMaker
+2021-01-25 19:30:02,055 [INFO]: [ActionExecutor] Cyclic behaviour. I'm waiting for an action to execute
+2021-01-25 19:30:06,782 [INFO]: [DataCollector] Starting collecting data
+2021-01-25 19:30:06,783 [INFO]: [DataCollector] Collecting data
+2021-01-25 19:30:06,815 [INFO]: [DataCollector] Received data request from HealthAnalyzer
+2021-01-25 19:30:06,816 [INFO]: [HealthAnalyzer] Cyclic behaviour. I'm waiting for DataCollector's data

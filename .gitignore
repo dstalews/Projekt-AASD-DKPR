@@ -45,3 +45,6 @@ venv
 venv/*
 .vscode
 .vscode/*
+*.log
+./agent_app/log
+./agent_app/log/*
