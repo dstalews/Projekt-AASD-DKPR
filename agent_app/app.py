@@ -1,8 +1,6 @@
 # Importing require libraries
 from flask import Flask, render_template, flash, redirect, request, session, logging, url_for
-
 from flask_sqlalchemy import SQLAlchemy
-
 from forms import LoginForm, RegisterForm, UserHealthForm
 from wtforms import Form
 import sys
@@ -14,10 +12,15 @@ import shlex
 from flask_script import Manager, Server
 from main import run, run_agent, run_agent_start
 from flask import request, jsonify
+from flask_api import status
+import logging
+import json
 
 app = Flask(__name__)
 manager = Manager(app)
 # Database Configuration and Creating object of SQLAlchemy
+
+logging.basicConfig(filename='./log/flask.log', level=logging.DEBUG)
 
 app.config['SECRET_KEY'] = '!9m@S-dThyIlW[pHQbN^'
 
@@ -217,14 +220,12 @@ def action():
         # return redirect(url_for('home'))
     # rendering login page
     status = Status.query.filter(Status.status !='not-completed').all()
-    print(status)
     return render_template('action.html',actions=a,status=status)
 
 # Login API endpoint implementation
 @app.route('/update/', methods = ['GET', 'POST'])
 def update():
     # Creating UserHealthForm form object
-    print(session['id'], flush=True)
     form = UserHealthForm(request.form)
     id = session['id']
     # verifying that method is post and form is valid
@@ -299,6 +300,65 @@ def api_id():
     }
     return jsonify(data)
 
+def get_or_create(session, model, defaults=None, **kwargs):
+    instance = session.query(model).filter_by(**kwargs).one_or_none()
+    if instance:
+        return instance, False
+    else:
+        params = {k: v for k, v in kwargs.items() if not isinstance(v, ClauseElement)}
+        params.update(defaults or {})
+        instance = model(**params)
+        try:
+            session.add(instance)
+            session.commit()
+        except Exception:  # The actual exception depends on the specific database so we catch all exceptions. This is similar to the official documentation: https://docs.sqlalchemy.org/en/latest/orm/session_transaction.html
+            session.rollback()
+            instance = session.query(model).filter_by(**kwargs).one()
+            return instance, False
+        else:
+            return instance, True
+
+@app.route('/api/v1/resources/usersaction', methods=['POST'])
+def creat_useraction():
+    if not request.json or not 'actions' in request.json:
+        return 'bad', 400
+    # data = json.load(request.json)
+    data = request.json
+    for i in data['actions']:
+        payload = json.dumps(data['actions'][i]['payload'])
+        action = f"Action : {i} Payload: {payload}"
+
+
+        logging.info(f"[API][POST] action to creat {action}")
+        logging.info(f"[API][POST] user id to creat {data['id']}")
+        instance = Action.query.filter_by(action=action).one_or_none()
+        logging.info(f"[API][POST] instance is {instance}")
+        if not instance:
+            logging.info(f"[API][POST] Create action")
+            a = Action(
+                action=action
+            )
+            db.session.add(a)
+            db.session.commit()
+            flash('You have successfully added action', 'success')
+            instance = Action.query.filter_by(action=a.action).one_or_none()
+            logging.info(f"[API][POST] created instance is {instance}")
+
+        logging.info(f"[API][POST] create user action")
+
+        useraction = UserAction(
+            userID = data['id'],
+            statusID = 1,
+            actionID = instance.id
+        )
+
+        logging.info(f"[API][POST]  user action is {useraction}")
+        db.session.add(useraction)
+        db.session.commit()
+        flash('You have successfully added action', 'success')
+        
+    return 'good', 201
+
 @app.route('/logout/')
 def logout():
     # Removing data from session by setting logged_flag to False.
@@ -313,7 +373,7 @@ manager.add_command('runserver', run(users))
 
 if __name__ == '__main__':
     # Creating database tables
-
+    
     db.create_all()
 
     # running server

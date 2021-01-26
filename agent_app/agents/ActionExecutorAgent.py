@@ -1,4 +1,5 @@
 import asyncio
+import requests  
 from json import dumps, loads
 
 from spade import agent
@@ -9,6 +10,8 @@ from spade.template import Template
 DECISION_MAKER_DATA_TEMPLATE: Template = Template(
     metadata=dict(performative="inform")
 )
+
+URL = "http://localhost:8080/api/v1/resources/usersaction"
 
 class ActionExecutorAgent(agent.Agent):
     agent_name: str
@@ -22,6 +25,12 @@ class ActionExecutorAgent(agent.Agent):
     class ExecuteAction(OneShotBehaviour):
         async def run(self):
             self.agent.logger.info(f"[{self.agent.agent_name}] Executing action {self.agent.decision['actions']}")
+            self.agent.logger.info(f"[{self.agent.agent_name}] Making request {self.agent.decision}")
+            self.agent.logger.info(f"[{self.agent.agent_name}] TYPE {type(self.agent.decision)}")
+            headers = {'content-type': 'application/json'}
+            self.agent.decision['id'] = self.agent.id
+            data = dumps(self.agent.decision)
+            requests.post(URL, data=data, headers=headers)
             await asyncio.sleep(1)
 
         async def on_end(self):
@@ -38,6 +47,7 @@ class ActionExecutorAgent(agent.Agent):
             if msg:
                 self.agent.logger.info(f"[{self.agent.agent_name}] Received data from DecisionMaker: {msg.body}")
                 self.agent.decision = loads(msg.body)
+
                 self.agent.execute_action = self.agent.ExecuteAction()
                 self.agent.add_behaviour(self.agent.execute_action)
                 await self.agent.execute_action.join()

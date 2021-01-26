@@ -64,6 +64,8 @@ class HealthAnalyzerAgent(agent.Agent):
         self.add_behaviour(retrieve_data_b, template=DATA_COLLECTOR_DATA_TEMPLATE)
 
 def calculate_bmi(weight, height):
+    if height == 0:
+        return 0
     return weight / ((height/100)*(height/100))
 
 def categorize_age(age):

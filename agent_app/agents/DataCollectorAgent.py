@@ -65,9 +65,6 @@ class DataCollectorAgent(agent.Agent):
             self.agent.logger.info(f"[{self.agent.agent_name}] Collecting data")
             self.agent.logger.info(f"[{self.agent.agent_name}] Data collected")
             self.agent.logger.info(f"[{self.agent.agent_name}] Preparing data to send")
-            # local_data: Data = dict(
-            #     data_int=10
-            # )
             PARAMS = {'id': self.agent.id} 
             r = requests.get(url = URL, params = PARAMS) 
             data = r.json()
