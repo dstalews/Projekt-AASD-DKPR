@@ -37,8 +37,7 @@ class User(db.Model):
     name= db.Column(db.String(15), unique=True)
     username = db.Column(db.String(15), unique=True)
     email = db.Column(db.String(50), unique=True)
-    gender = db.Column(db.String(2))
-    age = db.Column(db.Integer)    
+    gender = db.Column(db.String(2))    
     password = db.Column(db.String(256), unique=True)
     userhealth = db.relationship('UserHealth', backref='usertable', lazy=True)
     useraction = db.relationship('UserAction', backref='usertable', lazy=True)
@@ -49,11 +48,12 @@ class UserHealth(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     userID = db.Column(db.Integer, db.ForeignKey('usertable.id'))
-    temperature = db.Column(db.Integer)
+    temperature = db.Column(db.Float)
     pressure = db.Column(db.Integer)
     heartbeat = db.Column(db.Integer)
     weight = db.Column(db.Integer)    
     hight = db.Column(db.Integer)
+    age = db.Column(db.Integer)
     time = db.Column(db.DateTime, server_default=db.func.now())
 
 class UserAction(db.Model):
@@ -98,7 +98,6 @@ def register():
             name = form.name.data, 
             username = form.username.data, 
             email = form.email.data, 
-            age = form.age.data,
             gender = form.gender.data,
             password = hashed_password )
 
@@ -114,7 +113,8 @@ def register():
             pressure = 0,
             heartbeat = 0,
             weight = 0 ,
-            hight = 0
+            hight = 0,
+            age = 0
         )
 
         db.session.add(new_userhealth)
@@ -163,6 +163,7 @@ def login():
                 session['weight'] = health.weight
                 session['hight'] = health.hight
                 session['time'] = health.time
+                session['age'] = health.age
 
                 # After successful login, redirecting to home page
                 return redirect(url_for('home'))
@@ -201,13 +202,9 @@ def action():
             if status != 'not-completed':
                 useraction = UserAction.query.filter_by(id = id).first()
                 status = Status.query.filter_by(status = status).first()
-                print(status.id)
-                print(useraction.statusID)
                 useraction.statusID = status.id
                 db.session.commit()
                 flash('You have successfully udpate action status.', "success")
-                print(useraction.statusID)
-                print('hello')
 
         a = []
         for useraction in useractions:
@@ -239,6 +236,7 @@ def update():
         session['heartbeat'] = form.heartbeat.data
         session['weight'] = form.weight.data
         session['hight'] = form.hight.data
+        session['age'] = form.age.data
 
         new_userhealth = UserHealth(
             userID = session['id'],
@@ -246,7 +244,8 @@ def update():
             pressure = form.pressure.data,
             heartbeat = form.heartbeat.data,
             weight = form.weight.data ,
-            hight = form.hight.data
+            hight = form.hight.data,
+            age = form.age.data
         )
 
         db.session.add(new_userhealth)
@@ -266,13 +265,13 @@ def api_all():
         userhealth = UserHealth.query.filter_by(userID = user.id).order_by(UserHealth.time.desc()).first()
         data = {
         'id' : user.id ,
-        'age' : user.age ,
         'gender' : user.gender,
         'temperature' : userhealth.temperature,
 	    'pressure' : userhealth.pressure,
 	    'heartbeat' : userhealth.heartbeat,	
 	    'weight' : userhealth.weight,
-	    'hight' : userhealth.hight
+	    'hight' : userhealth.hight,
+        'age' : userhealth.age 
         }
         result.append(data)
     return jsonify(result)
@@ -290,12 +289,12 @@ def api_id():
     user = User.query.filter_by(id = id).first()
     data = {
     'id' : user.id ,
-    'age' : user.age ,
     'gender' : user.gender,
     'temperature' : userhealth.temperature,
     'pressure' : userhealth.pressure,
     'heartbeat' : userhealth.heartbeat,	
     'weight' : userhealth.weight,
+    'age' : userhealth.age ,
     'hight' : userhealth.hight
     }
     return jsonify(data)

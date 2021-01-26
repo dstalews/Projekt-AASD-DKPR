@@ -13,6 +13,7 @@
 
 <form method="POST">
 
+    {{ render_field(form.age, class="form-control",value=session['age']) }}
     {{ render_field(form.temperature, class="form-control",value=session['temperature']) }}
     {{ render_field(form.pressure, class="form-control",value=session['pressure']) }}
     {{ render_field(form.heartbeat, class="form-control",value=session['heartbeat']) }}

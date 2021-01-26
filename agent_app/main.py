@@ -77,13 +77,15 @@ def run_agent(user):
             decision_maker_agent.stop()
             action_executor_agent.stop()
             break
-    yourThread = threading.Timer(POOL_TIME, run_agent, (user,))
+    yourThread = threading.Thread(target=run_agent, args=(user,))
+    yourThread.setDaemon(True)
     yourThread.start()   
 
 def run_agent_start(user):
     global yourThread
     # Create your thread
-    yourThread = threading.Timer(POOL_TIME, run_agent, (user,))
+    yourThread = threading.Thread(target=run_agent, args=(user,))
+    yourThread.setDaemon(True)
     yourThread.start()
 
 

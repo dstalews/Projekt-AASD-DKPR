@@ -1,6 +1,6 @@
 # Importing Require Module
 
-from wtforms import Form, BooleanField, StringField, PasswordField, validators, TextAreaField, IntegerField
+from wtforms import Form, BooleanField, StringField, PasswordField, validators, TextAreaField, IntegerField, FloatField
 
 from wtforms.validators import DataRequired
 
@@ -16,7 +16,6 @@ class RegisterForm(Form):
     name = StringField("Name", validators=[validators.Length(min=3, max=25), validators.DataRequired(message="Please Fill This Field")])
     username = StringField("Username", validators=[validators.Length(min=3, max=25), validators.DataRequired(message="Please Fill This Field")])
     email = StringField("Email", validators=[validators.Email(message="Please enter a valid email address")])
-    age = IntegerField("Age", validators=[ validators.DataRequired(message="Please Fill This Field")])
     gender = StringField("Gender", validators=[validators.Length(min=1, max=3), validators.DataRequired(message="Please Fill This Field")])
     password = PasswordField("Password", validators=[
 
@@ -27,7 +26,8 @@ class RegisterForm(Form):
     confirm = PasswordField("Confirm Password", validators=[validators.DataRequired(message="Please Fill This Field")])
 
 class UserHealthForm(Form):
-    temperature = IntegerField("Temperature", validators=[ validators.DataRequired(message="Please Fill This Field")])
+    age = IntegerField("Age", validators=[ validators.DataRequired(message="Please Fill This Field")])
+    temperature = FloatField("Temperature", validators=[ validators.DataRequired(message="Please Fill This Field")])
     pressure = IntegerField("Pressure", validators=[ validators.DataRequired(message="Please Fill This Field")]) 
     heartbeat = IntegerField("Heartbeat", validators=[ validators.DataRequired(message="Please Fill This Field")])
     weight = IntegerField("Weight", validators=[ validators.DataRequired(message="Please Fill This Field")])
