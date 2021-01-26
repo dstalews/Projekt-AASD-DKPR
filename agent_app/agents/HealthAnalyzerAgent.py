@@ -30,11 +30,11 @@ class HealthAnalyzerAgent(agent.Agent):
 
     class RetrieveData(CyclicBehaviour):
         async def run(self):
-            print(f"[{self.agent.agent_name}] Cyclic behaviour. I'm waiting for DataCollector's data")
+            self.agent.logger.info(f"[{self.agent.agent_name}] Cyclic behaviour. I'm waiting for DataCollector's data")
             msg = await self.receive(timeout=60) # TODO: uncomment after merge
 
             if msg:
-                print(f"[{self.agent.agent_name}] Received data from DataCollector: {msg.body}") # TODO: uncomment after merge
+                self.agent.logger.info(f"[{self.agent.agent_name}] Received data from DataCollector: {msg.body}") # TODO: uncomment after merge
                 data = json.loads(msg.body) # TODO: uncomment after merge
                 heart_beat = int(data['heartbeat'])
                 blood_pressure = int(data['pressure'])
@@ -59,7 +59,7 @@ class HealthAnalyzerAgent(agent.Agent):
 
     async def setup(self):
         self.agent_name = "HealthAnalyzer"
-        print(f"[{self.agent_name}] Hello World! I'm agent {self.jid} I'm analyzing your health!")
+        self.logger.info(f"[{self.agent_name}] Hello World! I'm agent {self.jid} I'm analyzing your health!")
         retrieve_data_b = self.RetrieveData()
         self.add_behaviour(retrieve_data_b, template=DATA_COLLECTOR_DATA_TEMPLATE)
 
